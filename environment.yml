@@ -1,0 +1,8 @@
+name: youclip-ai
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - -r requirements-web.txt
