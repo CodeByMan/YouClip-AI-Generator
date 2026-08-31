@@ -320,4 +320,11 @@ Python Developer
 
 ## 📄 License
 
-This project is licensed under the [MIT License](LICENSE). The required MIT notices for incorporated upstream work (SamurAIGPT) and project-owned work are preserved.
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+<p align="center">
+  <b>⭐ If this project helps you, consider starring the repository!</b>
+</p>
+
