@@ -232,24 +232,23 @@ npm run build
 
 The provenance command treats `docs/original-backend-sha256.txt` as a
 historical upstream snapshot: declared repaired files must differ, while all
-other covered upstream files must still match.
+other covered upstream files must still match. See
+[`docs/VALIDATION_REPORT.md`](docs/VALIDATION_REPORT.md) for the latest
+packaged verification.
 
----
+## Honest portfolio description
 
-## 🧑‍💻 Author
+> Built and repaired a Python/FastAPI and Next.js video-shorts integration with
+> streamed media validation, canonical YouTube URL policy, bounded in-process
+> jobs, isolated outputs, strict long-video timestamp validation, protected
+> result access, retention cleanup, mocked workflow tests, and CI.
 
-**Muhammad Ali Nawaz**  
-Python Developer
+Do not describe the score as measured virality, the application as a
+production-scale public service, or incorporated MIT-licensed code as solely
+authored by the portfolio owner.
 
----
+## License
 
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-<p align="center">
-  <b>⭐ If this project helps you, consider starring the repository!</b>
-</p>
-
+The required MIT notices for incorporated and project-owned work are preserved
+in [`LICENSE`](LICENSE). External product and provider names belong to their
+respective owners.
