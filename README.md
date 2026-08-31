@@ -299,15 +299,6 @@ Source Video (Upload or yt-dlp)
 
 ---
 
-## ⚠️ Scope and Limitations
-
-- **Portfolio Context:** This remains a single-process portfolio application. It does not claim distributed or unrestricted public-service scalability. 
-- **Durability:** Job state is an in-memory store and is not durable across restarts. Running jobs are not cancellable.
-- **LLM Scoring:** The displayed score is an LLM opinion used to rank candidates. It is not a measured prediction of views, retention, engagement, or virality.
-- **Copyright:** Only process media you own or have permission to transform. Review applicable platform terms and copyright requirements. Real provider calls may cost money.
-
----
-
 ## 🧑‍💻 Author
 
 **Muhammad Ali Nawaz**  
