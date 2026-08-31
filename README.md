@@ -18,12 +18,9 @@ A FastAPI + Next.js portfolio application for converting authorized YouTube vide
 
 ## 📌 Project Overview
 
-**YouClip AI** is a local-first portfolio application designed to automatically generate short, engaging video clips from long-form YouTube videos or local media uploads. 
+**YouClip AI** is a application designed to automatically generate short, engaging video clips from long-form YouTube videos or local media uploads. 
 
 The application pairs a **FastAPI backend** with a **Next.js 16 studio**. A Python pipeline manages video transcription, strict LLM-assisted highlight selection, and deterministic media cropping, while the API adapter provides bounded background jobs to the frontend.
-
-**Project integration, repairs, API, studio, tests, and documentation:** Muhammad Ali Nawaz 2026.
-*Note: The media pipeline incorporates MIT-licensed code from [SamurAIGPT's AI YouTube Shorts Generator](https://github.com/SamurAIGPT/AI-Youtube-Shorts-Generator). Its license and provenance notices are preserved. See [`docs/UPSTREAM_CHANGES.md`](docs/UPSTREAM_CHANGES.md).*
 
 ---
 
@@ -314,7 +311,7 @@ Source Video (Upload or yt-dlp)
 ## 🧑‍💻 Author
 
 **Muhammad Ali Nawaz**  
-Python Developer
+Python Developer / AI Developer
 
 ---
 
