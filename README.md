@@ -73,7 +73,7 @@ The application pairs a **FastAPI backend** with a **Next.js 16 studio**. A Pyth
 - Native Fetch API and responsive custom CSS
 
 ### Backend
-- Python 3.11+
+- Python 3.13+
 - FastAPI
 - Uvicorn
 - Pydantic Settings
@@ -167,7 +167,7 @@ MUAPI_API_KEY=your_muapi_key_here
 
 ### Prerequisites
 - Windows 10 or 11
-- Python 3.11 or newer
+- Python 3.13 or newer
 - Node.js 20.9 or newer and npm 10 or newer
 - **FFmpeg and FFprobe** installed and added to system PATH
 
