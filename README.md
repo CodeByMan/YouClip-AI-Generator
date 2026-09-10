@@ -100,20 +100,22 @@ youclip-ai/
 ├── .github/workflows/ci.yml
 ├── backend_api/
 │   ├── app.py
-│   ├── config.py
-│   ├── routes.py
-│   └── job_store.py
+│   ├── job_store.py
+│   └── security.py
 ├── frontend/
-│   ├── src/
+│   ├── app/
+│   ├── components/
+│   ├── lib/
 │   ├── package.json
 │   ├── tsconfig.json
 │   └── .env.example
 ├── shorts_generator/
 │   ├── pipeline.py
-│   ├── transcribe.py
-│   └── crop.py
+│   ├── highlights.py
+│   ├── clipper.py
+│   ├── source_policy.py
+│   └── local/
 ├── docs/
-│   ├── UPSTREAM_CHANGES.md
 │   ├── VALIDATION_REPORT.md
 │   └── original-backend-sha256.txt
 ├── scripts/
@@ -131,7 +133,7 @@ youclip-ai/
 
 ## 🔐 Environment Variables
 
-Never commit a real `.env` file. Copy `.env.example` to `.env` in both root and `frontend` directories.
+Never commit a real `.env` file. Copy the root `.env.example` to `.env` and copy `frontend/.env.example` to `frontend/.env.local`.
 
 ### Recommended Local Configuration (Root `.env`)
 ```env
@@ -261,6 +263,11 @@ npm run build
 
 *Note: There is intentionally no global job-list endpoint. In hosted mode, add `X-YouClip-Key` to each request.*
 
+The web adapter is intentionally single-process and stores jobs in memory.
+Restarting the API removes active job state and private runtime files. Use
+synthetic or authorized media only, and do not treat the hosted shared key as
+multi-user identity or tenant isolation.
+
 ---
 
 ## 🎯 Project Flow
@@ -315,4 +322,3 @@ This project is licensed under the [MIT License](LICENSE).
 <p align="center">
   <b>⭐ If this project helps you, consider starring the repository!</b>
 </p>
-
